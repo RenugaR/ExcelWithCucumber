@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 6279606344,
+              "duration": 5822519657,
               "status": "passed"
             },
             "match": {
@@ -15,13 +15,13 @@
           }
         ],
         "line": 7,
-        "name": "FBLogin",
+        "name": "Title of your scenario",
         "description": "",
-        "id": "title-of-your-feature;fblogin",
+        "id": "title-of-your-feature;title-of-your-scenario",
         "after": [
           {
             "result": {
-              "duration": 1018691623,
+              "duration": 1042733712,
               "status": "passed"
             },
             "match": {
@@ -34,45 +34,37 @@
         "steps": [
           {
             "result": {
-              "duration": 14196726268,
+              "duration": 10175863388,
               "status": "passed"
             },
             "line": 8,
-            "name": "The user is in FB Home Page",
+            "name": "The CUSTOMER is in FB Home",
             "match": {
-              "location": "FBLogin.the_user_is_in_FB_Home_Page()"
+              "location": "LoginWithExcel.the_CUSTOMER_is_in_FB_Home()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 18662088454,
+              "duration": 22479643468,
               "status": "passed"
             },
             "line": 9,
-            "name": "The user enters username and password and clicks submit button",
+            "name": "The CUSTOMER enters username and password and clicks submit button",
             "match": {
-              "location": "FBLogin.the_user_enters_username_and_password_and_clicks_submit_button(DataTable)"
+              "location": "LoginWithExcel.the_CUSTOMER_enters_username_and_password_and_clicks_submit_button()"
             },
-            "rows": [
-              {
-                "cells": [
-                  "Renu1234@gmail.com",
-                  "renu12354"
-                ]
-              }
-            ],
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 114143,
+              "duration": 110496,
               "status": "passed"
             },
-            "line": 11,
-            "name": "The customer navigate into home page",
+            "line": 10,
+            "name": "The Customer see the home page",
             "match": {
-              "location": "FBLogin.the_customer_navigate_into_home_page()"
+              "location": "LoginWithExcel.the_Customer_see_the_home_page()"
             },
             "keyword": "Then "
           }
@@ -85,185 +77,13 @@
             "name": "@tag1"
           }
         ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 4577856174,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hook.beforeBackground()"
-            }
-          }
-        ],
-        "line": 21,
-        "name": "FBLogin2",
-        "description": "",
-        "id": "title-of-your-feature;fblogin2;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 1013824347,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hook.afterScenario()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 33761949113,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "The user is in FB Home Page",
-            "match": {
-              "location": "FBLogin.the_user_is_in_FB_Home_Page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 17358507850,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "The user enters username and password and clicks submit button \"Renu1234@gmail.com\",\"greens1234\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Renu1234@gmail.com\"",
-                  "offset": 63
-                },
-                {
-                  "val": "\"greens1234\"",
-                  "offset": 84
-                }
-              ],
-              "location": "FBLogin.the_user_enters_username_and_password_and_clicks_submit_button(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 77310,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "The customer navigate into home page",
-            "match": {
-              "location": "FBLogin.the_customer_navigate_into_home_page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@tag"
-          },
-          {
-            "name": "@tag2"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 4640252266,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hook.beforeBackground()"
-            }
-          }
-        ],
-        "line": 22,
-        "name": "FBLogin2",
-        "description": "",
-        "id": "title-of-your-feature;fblogin2;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 1026870849,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hook.afterScenario()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 24520352521,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "The user is in FB Home Page",
-            "match": {
-              "location": "FBLogin.the_user_is_in_FB_Home_Page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 19852622957,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "The user enters username and password and clicks submit button \"pavi1234@gmail.com\",\"greens12347\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"pavi1234@gmail.com\"",
-                  "offset": 63
-                },
-                {
-                  "val": "\"greens12347\"",
-                  "offset": 84
-                }
-              ],
-              "location": "FBLogin.the_user_enters_username_and_password_and_clicks_submit_button(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 73299,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "The customer navigate into home page",
-            "match": {
-              "location": "FBLogin.the_customer_navigate_into_home_page()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@tag"
-          },
-          {
-            "name": "@tag2"
-          }
-        ]
       }
     ],
     "name": "Title of your feature",
     "description": "  I want to use this template for my feature file",
     "id": "title-of-your-feature",
     "keyword": "Feature",
-    "uri": "C:/Users/renugadevi.ramesh/eclipse-workspace/Facebook/src/test/resources/Features/FBLogin.feature",
+    "uri": "src/test/resources/Features/ExcelData.feature",
     "tags": [
       {
         "name": "@tag",
