@@ -11,13 +11,12 @@ public class Hook {
 		
 		@Before
 		public void beforeBackground() {
-			System.setProperty("webdriver.chrome.driver", "C:\\Renu\\Cucumber300619-master\\driver\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "E:\\MavenPOMBaseIntegration-master\\MavenPOMBaseIntegration-master\\driver\\chromedriver.exe");
 			 driver=new ChromeDriver();
 		}
 		@After
 		public void afterScenario() {
 			
 			driver.quit();
-
 }
 }
