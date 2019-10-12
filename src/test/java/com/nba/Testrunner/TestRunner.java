@@ -10,11 +10,9 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features = "src\\test\\resources\\Features\\ExcelData.feature",
 glue = "com.nba.stepdefinition",
 dryRun=false,
-monochrome=true,
 plugin = {"html:target","json:src/test/resources/report.json"})
 
 public class TestRunner {
 
-	
-	
+
 }
