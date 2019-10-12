@@ -35,13 +35,13 @@ public class Base {
 		{
 			List<HashMap<String, String>> mapDatasList=new ArrayList<HashMap<String,String>>();
 			try {
-				File excelLocation=new File("E:\MavenPOMBaseIntegration-master\MavenPOMBaseIntegration-master\Excel\ExcelValues for name and Password.xlsx");
+				File excelLocation=new File("E:\\MavenPOMBaseIntegration-master\\MavenPOMBaseIntegration-master\\Excel\\ExcelValues for name and Password.xlsx");
 				String sheetName="Sheet1";
-				FileInputStream f=new FileInputStream(excelLocation.getAbsolutePath());
+				FileInputStream f=new FileInputStream(excelLocation);
 				Workbook w=new XSSFWorkbook(f);
 				Sheet sheet=w.getSheet(sheetName);
 				Row headerRow=sheet.getRow(0);
-				for (int i = 0; i < sheet.getPhysicalNumberOfRows(); i++) {
+				for (int i =0; i < sheet.getPhysicalNumberOfRows(); i++) {
 					Row currentRow=sheet.getRow(i);
 					HashMap<String, String> mapDatas=new HashMap<String, String>();
 					for (int j = 0; j < headerRow.getPhysicalNumberOfCells(); j++) {
