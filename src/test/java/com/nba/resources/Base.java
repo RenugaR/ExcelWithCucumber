@@ -35,7 +35,7 @@ public class Base {
 		{
 			List<HashMap<String, String>> mapDatasList=new ArrayList<HashMap<String,String>>();
 			try {
-				File excelLocation=new File("C:\\Users\\renugadevi.ramesh\\eclipse-workspace\\Facebook\\Excel\\ExcelValues for name and Password.xlsx");
+				File excelLocation=new File("E:\MavenPOMBaseIntegration-master\MavenPOMBaseIntegration-master\Excel\ExcelValues for name and Password.xlsx");
 				String sheetName="Sheet1";
 				FileInputStream f=new FileInputStream(excelLocation.getAbsolutePath());
 				Workbook w=new XSSFWorkbook(f);
